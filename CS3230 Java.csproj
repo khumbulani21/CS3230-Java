@@ -1,0 +1,117 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{C1DEDE97-F741-4F41-8EF7-F5753F92A83D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>CS3230_Java</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Adventure-1\Adventure.java" />
+    <Content Include="Battle.java" />
+    <Content Include="checkerboard\checkerboard\checker board.PNG" />
+    <Content Include="checkerboard\checkerboard\Main.java" />
+    <Content Include="Fraction-1.java" />
+    <Content Include="FractionCalc-1.java" />
+    <Content Include="JIMachine\JIMachine.java" />
+    <Content Include="Lab3\Lab3\Bamboo1Tile.java" />
+    <Content Include="Lab3\Lab3\BambooTile.java" />
+    <Content Include="Lab3\Lab3\CharacterTile.java" />
+    <Content Include="Lab3\Lab3\CircleTile.java" />
+    <Content Include="Lab3\Lab3\FlowerTile.java" />
+    <Content Include="Lab3\Lab3\PictureTile.java" />
+    <Content Include="Lab3\Lab3\RankTile.java" />
+    <Content Include="Lab3\Lab3\SeasonTile.java" />
+    <Content Include="Lab3\Lab3\Tile.java" />
+    <Content Include="Lab3\Lab3\WhiteDragonTile.java" />
+    <Content Include="lab4\lab4\Bamboo1Tile.java" />
+    <Content Include="lab4\lab4\BambooTile.java" />
+    <Content Include="lab4\lab4\CharacterTile.java" />
+    <Content Include="lab4\lab4\CircleTile.java" />
+    <Content Include="lab4\lab4\FlowerTile.java" />
+    <Content Include="lab4\lab4\PictureTile.java" />
+    <Content Include="lab4\lab4\RankTile.java" />
+    <Content Include="lab4\lab4\SeasonTile.java" />
+    <Content Include="lab4\lab4\Tile.java" />
+    <Content Include="lab4\lab4\TileDeck.java" />
+    <Content Include="lab4\lab4\WhiteDragonTile.java" />
+    <Content Include="lab5\lab5\Bamboo.java" />
+    <Content Include="lab5\lab5\Bamboo1Tile.java" />
+    <Content Include="lab5\lab5\BambooTile.java" />
+    <Content Include="lab5\lab5\CharacterTile.java" />
+    <Content Include="lab5\lab5\CircleExample.java" />
+    <Content Include="lab5\lab5\CircleTile.java" />
+    <Content Include="lab5\lab5\FlowerTile.java" />
+    <Content Include="lab5\lab5\Lab5.java" />
+    <Content Include="lab5\lab5\MahJongTest.java" />
+    <Content Include="lab5\lab5\PictureTile.java" />
+    <Content Include="lab5\lab5\RankTile.java" />
+    <Content Include="lab5\lab5\SeasonTile.java" />
+    <Content Include="lab5\lab5\Tile.java" />
+    <Content Include="lab5\lab5\TileDeck.java" />
+    <Content Include="lab5\lab5\WhiteDragonTile.java" />
+    <Content Include="lab7\lab7\Bamboo.java" />
+    <Content Include="lab7\lab7\Bamboo1Tile.java" />
+    <Content Include="lab7\lab7\BambooTile.java" />
+    <Content Include="lab7\lab7\CharacterTile.java" />
+    <Content Include="lab7\lab7\CircleExample.java" />
+    <Content Include="lab7\lab7\CircleTile.java" />
+    <Content Include="lab7\lab7\Fireworks.java" />
+    <Content Include="lab7\lab7\FlowerTile.java" />
+    <Content Include="lab7\lab7\ImagePreview.java" />
+    <Content Include="lab7\lab7\MahJong.java" />
+    <Content Include="lab7\lab7\MahJongBoard.java" />
+    <Content Include="lab7\lab7\MahJongModel.java" />
+    <Content Include="lab7\lab7\PictureTile.java" />
+    <Content Include="lab7\lab7\PlayClip.java" />
+    <Content Include="lab7\lab7\RankTile.java" />
+    <Content Include="lab7\lab7\SeasonTile.java" />
+    <Content Include="lab7\lab7\Tile.java" />
+    <Content Include="lab7\lab7\TileDeck.java" />
+    <Content Include="lab7\lab7\WhiteDragonTile.java" />
+    <Content Include="Palindrome.java" />
+    <Content Include="Util.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lab .docx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
